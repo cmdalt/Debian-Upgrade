@@ -9,12 +9,16 @@ Edit the file /etc/apt/sources.list using a text editor and replace each instanc
 sudo apt update
  ```
 Prepare for the operating system minimal system upgrade, run:
+```
 
 sudo apt upgrade --without-new-pkgs
+```
 
 Finally, update Debian 11 to Debian 12 Bookworm by running:
+```
 
 sudo apt full-upgrade
+```
 
 Reboot the Linux system so that you can boot into Debian 12 Bookworm
 
