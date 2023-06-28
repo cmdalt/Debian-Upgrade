@@ -1,11 +1,11 @@
 # Debian-Upgrade
-###Backup the system.
-###Update existing packages and reboot the Debian 11 system.
+### Backup the system.
+### Update existing packages and reboot the Debian 11 system.
 
 Edit the file /etc/apt/sources.list using a text editor and replace each instance of bullseye with bookworm. Next find the update line, replace keyword bullseye-updates with bookworm-updates. Finally, search the security line, replace keyword bullseye-security with bookworm-security.
 
-###Update the packages index on Debian Linux, run:
-```sudo apt update```
+### Update the packages index on Debian Linux, run:
+``` sudo apt update ```
 Prepare for the operating system minimal system upgrade, run:
 
 sudo apt upgrade --without-new-pkgs
